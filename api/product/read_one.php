@@ -7,8 +7,8 @@ header("Access-Control-Allow-Credentials: true");
 header("Content-Type: application/json");
 
 // подключение файла для соединения с базой и файл с объектом 
-include_once '../config/database.php';
-include_once '../objects/product.php';
+include_once 'http://rest-api/api/config/database.php';
+include_once 'http://rest-api/api/objects/product.php';
 
 // получаем соединение с базой данных 
 $database = new Database();
